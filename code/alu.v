@@ -21,6 +21,7 @@ end
 always @(*) begin
     // wire aux;
     if(alu_enable) begin
+        done = 0;
         case(opcode)
             6'b000000:  result = term1 + term2; //ADD
             6'b000001:  result = term1 - term2; //SUB
@@ -38,8 +39,8 @@ always @(*) begin
             6'b001101:  result = term1 >> term2;     //LSR
             6'b001110:  result = term1 << term2;     //LSL
             6'b001111:  result = (term1 >> term2) & 1;      //TST
-            6'b010000:  result = term1 + 1;
-            6'b010001:  result = term1 - 1;
+            6'b010000:  result = term1 + 1;             // INC
+            6'b010001:  result = term1 - 1;             // DEC
             default: result = term1; 
         endcase
         fl_zero = (result == 16'h0000);
