@@ -1,4 +1,4 @@
-`include "../code/alu.v"
+`include "../component/alu.v"
 `timescale 1ns/1ps
 
 module ALU_tb;

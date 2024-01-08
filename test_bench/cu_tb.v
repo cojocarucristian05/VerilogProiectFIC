@@ -1,4 +1,4 @@
-`include "../code/cu.v"
+`include "../component/cu.v"
 `timescale 1ns/1ps
 
 module CU_tb;
