@@ -85,6 +85,10 @@ always @(*) begin
             branch = 1;
             lr = pc;
         end
+        6'b100110: begin                         //RET
+            branch = 0;
+            pc_out = lr;
+        end
     endcase
     if (opcode >= 32 && opcode <= 37) begin
        pc_out = imm;
