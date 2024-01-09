@@ -7,4 +7,4 @@ https://docs.google.com/document/d/1s7pw2MCp2Y3kbfhnWIVwORoFybcvOn5-fLCH0RccnMo/
 **DOCS**
 https://docs.google.com/document/d/1ugaSoaPQY_2uu_hY-5uYh34kvMRbV_WpjD5wsITi-lA/edit?addon_store
 **PRESENTATION**
-
+[presentation (1).pdf](https://github.com/cojocarucristian05/VerilogProiectFIC/files/13876174/presentation.1.pdf)
